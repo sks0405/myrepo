@@ -1,0 +1,35 @@
+git config --global user.name "saikrishna" -  to configure name
+
+git config --global user.email saikrishnaswain.999@gmail.com - to configure email
+
+git commit -m "first v1 of index.html" - to commit after adding
+
+git branch - to see the branch
+
+git log - to see the logs when did u commit and etc
+
+git status - shows the status
+
+git diff - show difference between previous version of file and new version of file
+
+git add index.html -  to add a file
+
+git show ef5c0d5deaf05653b29570eacdf8c5403d561241:index.html -  shows the changes and codes of the file
+
+git checkout ef5c0d5deaf05653b29570eacdf8c5403d561241 -- index.html - shows the code directly on terminal of that version
+
+git checkout master -- * - shows the current code that you are in(new version)
+
+git restore . - restore the file to the last version, last successful change(mistakenly changed)
+
+git restore --staged . - move the file from staging area to WD(mistakenly changed if u have dine git add)
+
+git restore --worktree index.html
+
+git reset --soft HEAD^ (uncommit and keep the changes)
+
+git reset --hard HEAD^ (uncommit and discard the changes)
+
+git log -p -1
+
+git log --stat (summary of changes)
